@@ -8,6 +8,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    color: #a5134d;
 }
 
 a {
@@ -15,14 +16,10 @@ a {
     text-decoration: none;
 }
 
-.row {
-    margin: 0 2rem;
-}
-
 /* Header */
 
-header {
-    margin: 2rem;
+header > .row {
+    margin: 2.5rem 3rem 0 3rem;
 }
 
 #title {
@@ -30,7 +27,30 @@ header {
     color: #f0327e;
 }
 
+.nav {
+    padding: 0 3rem 0.6rem 0;
+}
+
 .nav-link {
+    font-size: 1.1rem;
     text-transform: uppercase;
     color: #a5134d;
+}
+
+/* Main Section */
+
+#subtitle {
+    margin-bottom: 2rem;
+    color: #f2d8bd;
+}
+
+#content-container {
+    margin: 0 6rem;
+    padding: 2.5rem 3rem;
+    background-color: #bc4b60;
+}
+
+.panel {
+    padding: 2rem;
+    background-color: #fbcaca;
 }
